@@ -3,9 +3,14 @@ package com.company.services;
 public class EncryptServices {
     private final int salt;
 
-    public String encrypt(String word) {
+    /**
+     * @param sentence  the string to encrypt
+     * @return String - return the encrypted sentence
+     * */
 
-        char[] letters = word.toCharArray();
+    public String encrypt(String sentence) {
+
+        char[] letters = sentence.toCharArray();
 
         for (int i = 0;
              i < letters.length;
@@ -16,9 +21,14 @@ public class EncryptServices {
         return String.valueOf(letters);
     }
 
-    public String decrypt(String word) {
+    /**
+     * @param encrypted  the string to encrypt
+     * @return String - return the encrypted decrypted
+     * */
 
-        char[] letters = word.toCharArray();
+    public String decrypt(String encrypted) {
+
+        char[] letters = encrypted.toCharArray();
 
         for (int i = 0;
              i < letters.length;
