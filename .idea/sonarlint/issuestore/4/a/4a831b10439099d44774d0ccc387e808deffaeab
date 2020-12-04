@@ -1,0 +1,9 @@
+
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ŠıŸäúÿÿÿÿ8­èîşâ.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(õ¿ñúÿÿÿÿ8‘ıîşâ.
+I
+java:S1481"'Remove this unused "sc" local variable.(ùÓÂøüÿÿÿÿ8ÚŠôşâ.
+g
+java:S2095"EUse try-with-resources or close this "Scanner" in a "finally" clause.(ùÓÂøüÿÿÿÿ8ÚŠôşâ.
+X
+java:S1854"6Remove this useless assignment to local variable "sc".(ùÓÂøüÿÿÿÿ8ÚŠôşâ.
